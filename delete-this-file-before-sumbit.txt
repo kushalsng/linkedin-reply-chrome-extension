@@ -1,0 +1,4 @@
+
+msg-form__contenteditable
+        
+msg-form__contenteditable:focus
