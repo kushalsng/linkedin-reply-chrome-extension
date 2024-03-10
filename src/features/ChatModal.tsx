@@ -4,7 +4,6 @@ import { messageType } from '~types/messageType';
 import { RegenerateIcon } from "~svgComponents/RegenerateIcon";
 import { ArrowDownIcon } from "~svgComponents/ArrowDownIcon";
 import { SendIcon } from '~svgComponents/SendIcon';
-import { API_KEY, API_URL } from '~constants';
 
 
 const ChatModal = ({ onClose, isOpen, reply, setReply, setInsert}) => {
@@ -25,20 +24,8 @@ const ChatModal = ({ onClose, isOpen, reply, setReply, setInsert}) => {
     try {
       setFetchingReplyFailed(false);
       setFetchingReply(true);
-      const response = await axios.post(API_URL, {
-        model: "gpt-3.5-turbo",
-        messages: [{
-          role: "user",
-          content: message
-        }],
-        temperature: 0.7,
-      }, {
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${API_KEY}`
-        }
-      });
-      const generatedReply = response?.data?.choices[0].message?.content?.trim();
+      const response = await axios.get("https://dummyapi.online/api/blogposts/" + (Math.floor(Math.random() * 50) + 1));
+      const generatedReply = response.data.title;
 
       setReply(generatedReply);
       setFetchingReply(false);
