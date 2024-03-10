@@ -1,35 +1,38 @@
-# ChatGPT Writer Take-Home Coding Assignment
 
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with command: `pnpm create plasmo --with-tailwindcss`.
+# LinkedIn AI Reply Chrome Extension 🚀
 
-## Getting Started
+Welcome to the LinkedIn AI Reply Chrome extension! This extension aims to streamline your LinkedIn messaging experience by providing AI-generated replies to your messages. No more struggling to find the right words – let AI do the heavy lifting for you!
 
-First, run the development server:
+## How to Use 📝
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+1. **Open LinkedIn Inbox**: Navigate to your inbox on LinkedIn.com.
 
-See how to load the extension: https://docs.plasmo.com/framework/workflows/dev#loading-the-extension
+2. **Click on Input Box**: Click on the input box where you want to compose your message.
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/).
+3. **Access the Extension**: An icon will appear in the bottom right corner of the input box. Click on this icon.
 
-## Where to edit?
+4. **Open Modal**: Upon clicking the icon, a modal will pop up, providing you with a prompt input and a "Generate" button.
 
-- The main code is located in src/content.tsx. By default, when you run the extension, it displays a static count button on the LinkedIn website. You need to replace it with your own code.
+5. **Generate Replies**: Enter your message prompt into the input field, then click on the "Generate" button. The AI will generate suitable replies based on your prompt.
 
-![count btn on linkedin](count_btn_on_linkedin.png)
+6. **Select and Send**: Choose the reply that best fits your message, and send it effortlessly!
 
-## Making production build
+## How to Setup ⚙️
 
-Run the following:
+1. **Clone Repository**: Clone this repository to your local machine.
 
-```bash
-pnpm build
-# or
-npm run build
-```
+2. **Install Dependencies**: Run the command `npm install` in the project directory to install all necessary dependencies.
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+3. **Build Extension**: Run the command `npm run build` to build the extension.
+
+4. **Import to Chrome**: Import the extension into your Chrome browser. Navigate to `chrome://extensions/`, enable "Developer mode," and click on "Load unpacked." Select the `build` directory of the cloned repository.
+
+5. **You're Ready to Go!**: The LinkedIn AI Reply Chrome extension is now installed and ready to use.
+
+## Demo Video 📹
+
+Check out this video demonstration to see the LinkedIn AI Reply Chrome extension in action!
+
+![Watch Demo Video](video.mp4)
+
+🎉 Happy messaging with AI replies on LinkedIn! 🎉
