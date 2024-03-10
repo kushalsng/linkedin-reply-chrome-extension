@@ -33,6 +33,6 @@ Welcome to the LinkedIn AI Reply Chrome extension! This extension aims to stream
 
 Check out this video demonstration to see the LinkedIn AI Reply Chrome extension in action!
 
-https://drive.google.com/file/d/1E6rLSMEs70jEX06U2oP_z61v4rEXUw04/view?usp=sharing
+https://github.com/kushalsng/linkedin-reply-chrome-extension/assets/59888324/3a499063-4ef3-4eaa-a24f-f1b0ad01aa7b
 
 🎉 Happy messaging with AI replies on LinkedIn! 🎉
